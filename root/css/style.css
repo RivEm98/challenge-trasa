@@ -35,7 +35,6 @@ body{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47824', endColorstr='#faa936',GradientType=0 ); /* IE6-9 */
 
   height: 78vh;
-  padding: 10px 5px;
 }
 .info{
   margin: 70px 0 0 0;
@@ -57,19 +56,22 @@ span{
 .avatares{
   position: absolute;
   right: 10px;
-  top: 35%;
+  top: 60%;
   width: 55%;
 }
 .formulario{
   background-color: white;
-  padding: 140px 10px;
+  top:-1px;
+  bottom: 100px;
+  padding: 10px 10px;
   width: 100%;
+  height: 101%;
 }
 input, textarea{
   background-color: #e7e7e7;
   border: none;
   border-radius: 25px;
-  margin: 15px 0px;
+  margin: 5px 0px;
   padding: 10px 25px;
   width: 100%;
 }

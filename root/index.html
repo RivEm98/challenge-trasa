@@ -17,7 +17,7 @@
     <img src="img/Logo.png" alt="PAGO24">
   </div>
   <div class="fondo d-flex justify-content-center align-items-md-center">
-    <div class="row container p-0 m-0">
+    <div class="row container h-100 p-0 m-0">
       <div class="position-relative col col-lg-7">
         <div class="info">
           <h1 class="d-none d-lg-block">Mastercard® Prepaga</h1>
@@ -27,20 +27,22 @@
         </div>
         <img class="avatares d-none d-lg-inline" src="img/Avatars.png" alt="">
       </div>
-      <div class="col-12 col-lg-5">
+      <div class="col-12 col-lg-5 h-100">
         <h1 class="d-lg-none">Mastercard® Prepaga</h1>
         <h1 class="d-lg-none"><span>+</span> Billetera Virtual</h1>
-        <div class="d-flex justify-content-center">
-          <form class="w-100" id="formulario">
-            <div class="formulario">
-              <input type="text" name="name" id="name" placeholder="Name">
-              <div id="errNombre"></div>
-              <input type="email" name="email" id="email" placeholder="Email">
-              <div id="errEmail"></div>
-              <input type="text" name="subject" id="subject" placeholder="Súbject">
-              <div id="errSubject"></div>
-              <textarea name="message" id="message" cols="30" rows="8" placeholder="Message"></textarea>
-              <div id="errMsg"></div>
+        <div class="d-flex justify-content-center h-100">
+          <form class="w-100 h-100 position-relative" id="formulario">
+            <div class="formulario position-absolute d-flex align-items-center justify-content-center">
+              <div class="w-100">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <div id="errNombre"></div>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <div id="errEmail"></div>
+                <input type="text" name="subject" id="subject" placeholder="Súbject">
+                <div id="errSubject"></div>
+                <textarea name="message" id="message" cols="30" rows="8" placeholder="Message"></textarea>
+                <div id="errMsg"></div>
+              </div>
             </div>
             <div class="d-flex justify-content-center">
               <button type="submit" class="boton d-lg-none" id='boton'>Solicitar</button>
