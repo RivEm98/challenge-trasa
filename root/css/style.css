@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body{
+  font-family: Roboto;
+}
+*{
+  box-sizing: border-box;
+}
+.logo{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.centrado{
+  padding: 0px 10%;
+}
+.fondo {
+  background: rgb(244, 120, 36); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(244, 120, 36, 1) 0%,
+    rgba(250, 169, 54, 1) 50%,
+    rgba(250, 169, 54, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(244, 120, 36, 1) 0%,
+    rgba(250, 169, 54, 1) 50%,
+    rgba(250, 169, 54, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(244, 120, 36, 1) 0%,
+    rgba(250, 169, 54, 1) 50%,
+    rgba(250, 169, 54, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47824', endColorstr='#faa936',GradientType=0 ); /* IE6-9 */
+
+  height: 78vh;
+  padding: 10px 5px;
+}
+.info{
+  margin: 70px 0 0 0;
+}
+h1{
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+}
+p{
+  font-size: 20px;
+  font-weight: 100;
+  margin: 30px 0px;
+  color: white;
+}
+span{
+  color: #ffcb08;
+}
+.avatares{
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  width: 55%;
+}
+.formulario{
+  background-color: white;
+  padding: 140px 10px;
+  width: 100%;
+}
+input, textarea{
+  background-color: #e7e7e7;
+  border: none;
+  border-radius: 25px;
+  margin: 15px 0px;
+  padding: 10px 25px;
+  width: 100%;
+}
+input:focus{
+  outline: none;
+  border: 1px solid rgb(244, 120, 36);
+}
+textarea:focus{
+  outline: none;
+  border: 1px solid rgb(244, 120, 36);
+}
+.error{
+  border: 1px solid rgb(255, 59, 92);
+}
+.text-error{
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: rgb(255, 59, 92);
+  font-size: 14px;
+}
+.boton{
+  background-color: #1a75da;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  padding: 18px 48px;
+  width: 230px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:990px){
+  .formulario{
+    padding: 0px 10px;
+  }
+  .info{
+    margin:0;
+  }
+  .fondo{
+    height: 81vh;
+  }
+}
