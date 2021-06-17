@@ -56,7 +56,7 @@ span{
 .avatares{
   position: absolute;
   right: 10px;
-  top: 60%;
+  top: 200px;
   width: 55%;
 }
 .formulario{
@@ -107,6 +107,7 @@ textarea:focus{
 @media screen and (max-width:990px){
   .formulario{
     padding: 0px 10px;
+    height: 60%;
   }
   .info{
     margin:0;
